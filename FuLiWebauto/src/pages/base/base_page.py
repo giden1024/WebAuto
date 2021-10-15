@@ -104,9 +104,6 @@ class BasePage:
         self.driver.switch_to.alert.accept()
 
 
-
-
-
 if __name__ == "__main__":
     bs = BasePage("https://www.bing.com")
 
