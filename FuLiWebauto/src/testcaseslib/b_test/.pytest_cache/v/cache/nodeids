@@ -1,0 +1,13 @@
+[
+  "test_my_add.py::test_add[1-2-3-4-5-6-7-8-9-0]",
+  "test_my_add.py::test_add[11-2-3-4-5-6-7-8-9-0]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5e97\\u94fa\\u6ee1\\u51cf\\u5238-\\u5e97\\u94fa\\u5238-\\u6ee1\\u51cf\\u5238-10000-1000-9-M_\\u5e97\\u94fa\\u6ee1\\u51cf\\u4f7f\\u7528\\u89c4\\u5219-]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5e97\\u94fa\\u6ee1\\u6298\\u5238-\\u5e97\\u94fa\\u5238-\\u6ee1\\u6298\\u5238-10000-0.1-8-M_\\u5e97\\u94fa\\u6ee1\\u6298\\u5238-]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5e97\\u94fa\\u81ea\\u5b9a\\u4e49\\u5238-\\u5e97\\u94fa\\u5238-\\u81ea\\u5b9a\\u4e49-\\u5e97\\u94fa\\u4f18\\u60e0\\u4fe1\\u606f-\\u5e97\\u94fa\\u95e8\\u69db\\u4fe1\\u606f-7-M_\\u5e97\\u94fa\\u81ea\\u5b9a\\u4e49\\u5238-]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u5546\\u54c1\\u5238-\\u6ee1\\u51cf\\u5238-20000-2000-6-M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u6d4b\\u8bd5\\u5546\\u54c11]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u5546\\u54c1\\u5238-\\u6ee1\\u6298\\u5238-20000-0.2-5-M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u6d4b\\u8bd5\\u5546\\u54c12]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u5546\\u54c1\\u5238-\\u81ea\\u5b9a\\u4e49-\\u5546\\u54c1\\u4f18\\u60e0\\u4fe1\\u606f-\\u5546\\u54c1\\u95e8\\u69db\\u4fe1\\u606f-4-M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u6d4b\\u8bd5\\u5546\\u54c13]",
+  "test_my_add.py::test_1",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5e97\\u94fa\\u6ee1\\u6298\\u5238-\\u5e97\\u94fa\\u5238-\\u6ee1\\u6298\\u5238-0.1-10000-8-M_\\u5e97\\u94fa\\u6ee1\\u6298\\u5238-]",
+  "test_coupon.py::TestCoupon::test_coupon_success[M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u5546\\u54c1\\u5238-\\u6ee1\\u6298\\u5238-0.2-20000-5-M_\\u5546\\u54c1\\u6ee1\\u51cf\\u5238-\\u6d4b\\u8bd5\\u5546\\u54c12]"
+]

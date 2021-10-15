@@ -1,0 +1,77 @@
+ <!-- 年节礼包, 优选商城 -->
+                <ul class="swiper-wrapper clearfix">
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/mall?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli04.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/mall?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli06.png?version=1610531963" alt="" /></a>
+                  </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </li>
+            <li class="item swiper-slide">
+              <div class="swiper-container fuli_employee swiper-no-swiping none-effect">
+                <!-- 百福得SaaS平台 -->
+                <ul class="swiper-wrapper clearfix">
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://xtdz.sunyuwei.qa.psf-dev.com?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli10.png?version=1610531963" alt="" /></a>
+                  </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </li>
+            <li class="item swiper-slide">
+              <div class="swiper-container fuli_health swiper-no-swiping none-effect">
+                <!-- 健康体检, 团体保险 -->
+                <ul class="swiper-wrapper clearfix">
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/health/home?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli07.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://baoxian.sunyuwei.qa.psf-dev.com?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli11.png?version=1610531963" alt="" /></a>
+                  </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </li>
+            <li class="item swiper-slide">
+              <div class="swiper-container fuli_cultural swiper-no-swiping none-effect">
+                <!--  电影通兑, 旅游景点, 娱乐演出, 企业活动, 图书精选 -->
+                <ul class="swiper-wrapper clearfix">
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/movie/home?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli01.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href=" http://www.sunyuwei.qa.psf-dev.com/scenery/home?city=145 "><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli05.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/drama_pc/home?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli02.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/activity/home?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli08.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/shop/book?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli09.png?version=1610531963" alt="" /></a>
+                  </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </li>
+            <li class="item swiper-slide">
+              <div class="swiper-container fuli_employeeCase swiper-no-swiping none-effect">
+                <!-- 生日礼遇, 入职纪念 -->
+                <ul class="swiper-wrapper clearfix">
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://www.sunyuwei.qa.psf-dev.com/mall?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli03.png?version=1610531963" alt="" /></a>
+                  </li>
+                  <li class="item swiper-slide">
+                    <a target="_blank" href="http://sjdz.sunyuwei.qa.psf-dev.com?city=145"><img class="img" src="//static.sunyuwei.qa.psf-dev.com/img/www/index_2020/fuli12.png?version=1610531963" alt="" /></a>
