@@ -60,6 +60,6 @@ class ExecuteFindKey:
         return result
 
 if __name__ == "__main__":
-    e = ExecuteFindKey(env="stage")
+    e = ExecuteFindKey(env="test05")
     print(e.get_code_and_orderNo_sql("2014","10"))
     # print(e.get_key_from_merchant_sql("2014"))

@@ -18,7 +18,8 @@ class EnterAmount(LoginPage):
 
     _confirm_button = (By.XPATH, '//*[contains(text(),"确认兑换")]')  # 确认按钮
     _record_line = (By.XPATH, '//*[@class="el-card__body"]/div/div[3]/table/tbody/tr')
-    _cash_click_div = (By.XPATH, '//*[@class="cardRight___xAVYM"]')
+    # _cash_click_div = (By.XPATH, '//*[@class="cardRight___xAVYM"]')
+    _cash_click_div = (By.XPATH,'//*[@id="app"]/div/div[2]/div[2]/div/div[3]/div/div[1]/div[1]/div[3]')
     _cash_submit = (By.XPATH, '//*[contains(text(),"确认抵扣")]')
 
     def get_pay_url(self, url):
@@ -29,13 +30,14 @@ class EnterAmount(LoginPage):
         # 根据输入的金额点击按键
         for num in str(new_amount):
             _number_span = (By.XPATH, '//span[text()="%s"]' % num)
+            time.sleep(1)
             self.click(self.find(_number_span))
 
         # 点击确认兑换按钮
         self.click(self.find(self._confirm_button))
 
     def mcashier_click(self, pwd_key):
-        self.click(self.find(self._cash_click_div))
+        # self.click(self.find(self._cash_click_div))
         time.sleep(1)
         self.click(self.find(self._cash_submit))
 
@@ -43,12 +45,14 @@ class EnterAmount(LoginPage):
         for num in str(pwd_key):
             _pwd_spant = (By.XPATH, "//ul[@class='pwdKeyBoard___1nQfy']/li/span[text()='%s']" % num)
             self.click(self.find(_pwd_spant))
+        time.sleep(1)
 
     # 购买多次券码
     def buy_code_times(self,times,url,amount,pwd_key):
         for t in range(int(times)):
             self.get_pay_url(url)
             self.enter_amount(amount)
+            time.sleep(1)
             self.mcashier_click(pwd_key)
 
 
@@ -96,14 +100,16 @@ class EnterAmount(LoginPage):
 
 
 if __name__ == "__main__":
-    e = EnterAmount("https://m-stage.dongfangfuli.com/user/login?city=145",type="H5")
+    e = EnterAmount("https://m-test05.dongfangfuli.com/user/login?city=145",type="H5")
     e.login("18721705015","123456")
     time.sleep(5)
-    url = "https://m-stage.dongfangfuli.com/newBirthday/payBill?id=305"
-    amount = "3"
+    url = "https://m-test05.dongfangfuli.com/newBirthday/payBill?id=5405"
+    amount = "1"
     pwd_key = "1991"
 
-    e.buy_code_times("10",url,amount,pwd_key)
+    e.buy_code_times("8",url,amount,pwd_key)
+    # 关闭浏览器
+    # e.quit_driver()
 
 
 

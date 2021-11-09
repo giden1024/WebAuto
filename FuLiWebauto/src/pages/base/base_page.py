@@ -31,6 +31,10 @@ class BasePage:
         ele = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*locate))
         return ele
 
+    def find_one(self,locate,num=0) :
+        ele = WebDriverWait(self.driver, 10).until(lambda x: x.find_elements(*locate)[num])
+        return ele
+
     def my_wait(self,second,locate,result):
         try:
             WebDriverWait(self.driver,second).until(lambda x:x.find_element(*locate).text == result)

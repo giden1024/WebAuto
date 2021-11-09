@@ -8,7 +8,8 @@
 import requests
 
 
-class GetCode:
+class GetCode():
+    def 
     url = "/s/user/sendSms"
     requests.get()
 
