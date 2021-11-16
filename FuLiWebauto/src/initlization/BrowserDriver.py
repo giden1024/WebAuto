@@ -14,7 +14,10 @@ class BuildUpDriver:
     # caps = webdriver.DesiredCapabilities.CHROME.copy()
     # caps['args'] = ['--start-maximized', '--disable-infobars']
     # 存储本地driver的地址
-    driver_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/file/driver/chromedriver.exe"
+    if os.name == "nt": # 如果是windows，os的名称是nt
+        driver_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/file/driver/chromedriver.exe"
+    else:
+        driver_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/file/driver/chromedriver"
     # 浏览器选项
     chrome_options = webdriver.ChromeOptions()
     # 去除网页打开的时候，自动化的标识
@@ -53,23 +56,23 @@ class BuildUpDriver:
         self.driver.quit()
 
     def build_up_h5_driver(self, url):  # 新建浏览器
-        mobile_emulation = {'deviceName': 'iPhone 6/7/8'}
-        # mobile_emulation = {
-        #     "deviceMetrics": {"width": 375, "height": 1000, "pixelRatio": 3.0},  # 定义设备高宽，像素比
-        #     # "userAgent": "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) "  # 通过UA来模拟
-        #     #              "AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
-        #     "userAgent":'iphone X'
-        # }
+        # mobile_emulation = {'deviceName': 'iPhone 6/7/8'}
+        # self.driver.maximize_window()
+        mobile_emulation = {
+            "deviceMetrics": {"width": 375, "height": 1000, "pixelRatio": 3.0},  # 定义设备高宽，像素比
+            # "userAgent": "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) "  # 通过UA来模拟
+            #              "AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
+            "userAgent":'iphone X'
+        }
 
         self.chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
         # self.chrome_options.add_argument('window-size=500,750')  # 无用
         self.driver = webdriver.Chrome(executable_path=self.driver_path,options=self.chrome_options)
         # self.driver.set_window_size("500","1000")
         self.driver.implicitly_wait(10)
-        self.driver.maximize_window()
+        self.driver.maximize_window() # 在mac上无效，无法最大化浏览器
         self.driver.get(url)
         return self.driver
-
 
 
 if __name__ == "__main__":

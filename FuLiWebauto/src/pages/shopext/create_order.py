@@ -18,7 +18,6 @@ class EnterAmount(LoginPage):
 
     _confirm_button = (By.XPATH, '//*[contains(text(),"确认兑换")]')  # 确认按钮
     _record_line = (By.XPATH, '//*[@class="el-card__body"]/div/div[3]/table/tbody/tr')
-    # _cash_click_div = (By.XPATH, '//*[@class="cardRight___xAVYM"]')
     _cash_click_div = (By.XPATH,'//*[@id="app"]/div/div[2]/div[2]/div/div[3]/div/div[1]/div[1]/div[3]')
     _cash_submit = (By.XPATH, '//*[contains(text(),"确认抵扣")]')
 
@@ -36,6 +35,7 @@ class EnterAmount(LoginPage):
         # 点击确认兑换按钮
         self.click(self.find(self._confirm_button))
 
+    #  点击收银台确认页面，然后输入支付密码
     def mcashier_click(self, pwd_key):
         # self.click(self.find(self._cash_click_div))
         time.sleep(1)

@@ -23,7 +23,7 @@ def get_yaml():
 
 
 # 返回环境相关地址
-def get_env_domain(env="test05",host="h5_host"):
+def get_env_domain(env="test05",host="h5"):
     return get_yaml()['env'][env][host]
 
 

@@ -9,8 +9,10 @@ import requests
 
 
 class GetCode():
-    def 
-    url = "/s/user/sendSms"
-    requests.get()
+    def test(self):
+        url = "/s/user/sendSms"
+        # requests.get()
+
+
 
 

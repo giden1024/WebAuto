@@ -2,10 +2,7 @@
 #-*- coding:utf -*-
 '''
 @author = 'mayuyang'
-@file:learn_loop_2.py
-@time:2019/4/244:17 PM
+@file:learn_test1.py
+@time:2021/11/1010:19 AM
 @desc:
 '''
-
-
-

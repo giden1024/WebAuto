@@ -100,7 +100,6 @@ class BasePage:
         # 执行命令
         self.driver.execute_script(js)
 
-
     def quit_driver(self):
         self.driver.quit()
 
