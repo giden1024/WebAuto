@@ -21,7 +21,6 @@ def creaet_order(merchant_id,env="test05",type="H5", times="1", amount="1"):
     account = get_account(env=env)  # 根据环境获取账号
     # print(link+login_path)
     e = EnterAmount(link+login_path, type=type)
-
     e.login(account["username"],account["pwd"])
     time.sleep(5)
     e.buy_code_times(times,link+pay_path+merchant_id,amount,account['pay_pwd'])
